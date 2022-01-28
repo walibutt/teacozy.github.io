@@ -1,0 +1,148 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+}
+
+.crumbs {
+    margin-left: auto; 
+    padding-right: 10px;
+}
+
+.crumbs li {
+    overflow: hidden;
+    display: inline-flex;
+
+}
+
+.crumbs a {
+    color: seashell;
+    padding: 10px;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+/* Mission */
+
+.mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-position: inherit;
+    width: 1200px;
+    height: 700px;
+    margin: 0px auto;
+}
+
+.statement {
+    display: inline-block;
+    text-align: center;
+    margin-top: 25%;
+    width: 1200px;
+    background-color: black;
+}
+
+/* Featured Tea */
+
+.tea {
+    width: 1000px;
+    text-align: center;
+    margin: 35px auto;
+}
+
+.tea-header-1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.tea-header-2 {
+    text-align: center;
+    margin: 0;  
+}
+
+figure {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+
+figcaption {
+    width: 300px;
+    margin: 10px auto auto auto;
+}
+
+img.monthly-tea {
+    width: 300px;
+    height: 200px;
+}
+
+/* Locations */
+
+.location {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: inherit;
+    width: 1200px;
+    height: 570px;
+    margin: 35px auto;
+    text-align: center;
+}
+
+.subhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 1200px;
+    margin: 6% 0 0 0;
+}
+
+.branch {
+    opacity: 1;
+    display: inline-block;
+    text-align: center;
+    margin-top: 14%;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    background-color: black;
+}
+
+/* Footer */
+
+.contact {
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+}
